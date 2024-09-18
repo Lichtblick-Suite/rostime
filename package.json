@@ -29,6 +29,7 @@
     "dist",
     "src"
   ],
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "build": "tsc -b",
     "lint:ci": "eslint --report-unused-disable-directives .",
