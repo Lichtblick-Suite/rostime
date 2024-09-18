@@ -1,11 +1,12 @@
 name: CI
 
 on:
-  pull_request:
+  push:
+    tags: v*
 
 jobs:
-  ci:
-    name: ci
+  publish:
+    name: publish
     runs-on: ubuntu-latest
 
     steps:
@@ -19,3 +20,8 @@ jobs:
       - run: yarn run build
       - run: yarn run lint:ci
       - run: yarn run test
+
+      - name: Publish to NPM
+        run: yarn publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
