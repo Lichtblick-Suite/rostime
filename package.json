@@ -22,7 +22,7 @@
     "name": "Lichtblick",
     "email": "lichtblick@bmwgroup.com"
   },
-  "homepage": "https://github.com/lichtblick-suite/rostime",
+  "homepage": "https://github.com/lichtblick-suite",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
