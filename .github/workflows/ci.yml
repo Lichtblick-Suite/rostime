@@ -19,7 +19,7 @@ jobs:
           node-version: 16.x
           registry-url: https://registry.npmjs.org
 
-      - run: yarn set version berry # Sets the pipeline to use Yarn 3
+      - run: yarn set version 3.6.3 # Sets the pipeline to use Yarn 3
       - run: yarn install --frozen-lockfile
       - run: yarn run build
       - run: yarn run lint:ci
