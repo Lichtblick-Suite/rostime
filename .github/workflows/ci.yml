@@ -19,3 +19,4 @@ jobs:
       - run: yarn run build
       - run: yarn run lint:ci
       - run: yarn run test
+      
