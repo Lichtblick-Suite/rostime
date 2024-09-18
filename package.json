@@ -39,7 +39,7 @@
     "test": "jest"
   },
   "engines": {
-    "node": ">= 14"
+    "node": ">= 16"
   },
   "devDependencies": {
     "@lichtblick/eslint-plugin": "^1.0.1",
