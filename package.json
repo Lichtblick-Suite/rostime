@@ -1,6 +1,6 @@
 {
-  "name": "@foxglove/rostime",
-  "version": "1.1.2",
+  "name": "@lichtblick/rostime",
+  "version": "1.0.0",
   "description": "ROS (Robot Operating System) Time and Duration primitives and helper methods",
   "license": "MIT",
   "keywords": [
@@ -16,13 +16,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/foxglove/rostime.git"
+    "url": "https://github.com/lichtblick-suite/rostime.git"
   },
   "author": {
-    "name": "Foxglove Technologies Inc",
-    "email": "contact@foxglove.dev"
+    "name": "Lichtblick",
+    "email": "lichtblick@bmwgroup.com"
   },
-  "homepage": "https://github.com/foxglove/rostime",
+  "homepage": "https://github.com/lichtblick-suite/rostime",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -41,7 +41,7 @@
     "node": ">= 14"
   },
   "devDependencies": {
-    "@foxglove/eslint-plugin": "0.13.0",
+    "@lichtblick/eslint-plugin": "^1.0.1",
     "@types/eslint": "^7",
     "@types/eslint-plugin-prettier": "^3",
     "@types/jest": "^26.0.23",
